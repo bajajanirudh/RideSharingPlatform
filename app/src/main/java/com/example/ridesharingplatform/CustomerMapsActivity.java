@@ -498,6 +498,7 @@ public class CustomerMapsActivity extends AppCompatActivity implements OnMapRead
 
     @Override
     public void onBackPressed() {
+        super.onBackPressed();
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
