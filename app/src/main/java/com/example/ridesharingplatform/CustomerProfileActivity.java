@@ -188,6 +188,7 @@ public class CustomerProfileActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
+        super.onBackPressed();
         returnMapActivity();
     }
 }
