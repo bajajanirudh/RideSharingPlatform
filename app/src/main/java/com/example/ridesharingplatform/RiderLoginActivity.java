@@ -104,6 +104,7 @@ public class RiderLoginActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
+        super.onBackPressed();
         Intent intent = new Intent(RiderLoginActivity.this, MainActivity.class);
         startActivity(intent);
         finish();
